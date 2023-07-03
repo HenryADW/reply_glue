@@ -1,4 +1,4 @@
-[![API tests](https://github.com/HenryADW/reply_glue/blob/main/.github/workflows/main.yml/badge.svg)](https://github.com/HenryADW/reply_glue/blob/main/.github/workflows/main.yml)
+[![API tests] (https://github.com/HenryADW/reply_glue/blob/main/.github/workflows/main.yml/badge.svg)](https://github.com/HenryADW/reply_glue/blob/main/.github/workflows/main.yml)
 
 Hello thank you for looking at my work, to run it run the following in your command line within the top level directory of the project.
 
