@@ -1,0 +1,21 @@
+name: jest unit tests
+on:
+  push:
+    branches: [main]
+
+jobs:
+    test:
+        name: Test on Node.js
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout code
+          uses: actions/checkout@v2
+        - name: Install npm
+          run: npm install
+        - name: Install dependencies
+          run: npm ci
+        - name: Run tests
+          run: |
+            npm run test
+          env:
+            CI: true
